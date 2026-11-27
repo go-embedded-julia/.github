@@ -30,7 +30,7 @@ jobs:
           # validator that judges the config and the engine that runs it
           # agree. Renovate raises both in one pull request, and ci.yml's step
           # 0 fails if they differ.
-          renovate-version: 44.264.1
+          renovate-version: 45.3.2
           token: ${{ secrets.RENOVATE_TOKEN }}
         env:
           LOG_LEVEL: ${{ inputs.logLevel || 'info' }}
